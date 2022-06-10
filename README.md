@@ -12,19 +12,21 @@ My opinion: It's very similar to lock token projects and staking projects. So I 
 
 ERC20 token's address is needed for deploy (as constructor argument)
 
+
 Main functions: 
+-------------------------
 
 deposit() - external
-----------------------
+
 User can deposit his own tokens. Input: uint256 amount
-----------------------
 
 getMoney() - external
-----------------------
+
 User can get all unlocked tokens. Example: User X deposited 100 tokens and 50 days are over. User X can get 25 tokens using this function.
-----------------------
+
 
 View functions:
+-------------------------
 
 calculateReward() - internal : function for knowing unlocked tokens
 
